@@ -1,0 +1,13 @@
+body {
+    /* background-image: url('image.jpg') ;
+     background-attachment: fixed;
+    height: 100%;
+    width: 95%; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;  */
+}
+.container {
+    /* background-color: darkgoldenrod; */
+    background: url('image.jpg') no-repeat center cover;
+}

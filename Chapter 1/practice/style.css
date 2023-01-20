@@ -1,0 +1,20 @@
+.red {
+    background-color: rgb(150, 248, 13);
+    color : rgb(149, 65, 244);
+}
+
+/* #head {
+    background-color: rebeccapurple;
+    color: white
+
+} */
+
+.one ,.second, .third{
+    background-color: black;
+    color: white;
+}
+
+.one h1{
+    color: chocolate;
+    background-color: blue;
+}

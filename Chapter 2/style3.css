@@ -1,0 +1,19 @@
+.topnav {
+    background-color: green;
+    color: white
+}
+div a{
+    color: white;
+}
+
+.container {
+    color: darkred
+}
+
+body{
+    background-image: url('image.jpeg');
+    height: 1000px;
+    width: 1320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

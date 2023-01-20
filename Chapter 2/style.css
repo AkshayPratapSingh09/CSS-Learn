@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.red {
+    background-color: red;
+    height: 260px;
+    color: white;
+}
+
+.yellow {
+    background-color: rgb(168, 230, 44);
+    color: green
+}
