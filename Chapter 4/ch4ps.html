@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <link
+      href="https://fonts.googleapis.com/css?family=Baloo Bhai"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .nav {
+        width: 100%;
+        text-align: left;
+        background-color: black;
+        color: white;
+        padding-left: 20px;
+      }
+      .nav li {
+        display: inline;
+      }
+      .container1 {
+        display: inline-block;
+        width: 50%;
+        height: 90vh;
+        background-color: red;
+        display: none;
+      }
+      .container2 {
+        display: inline-block;
+        width: 50%;
+        height: 90vh;
+        background-color: green;
+        /* visibility: hidden; */
+      }
+      .foot {
+        text-align: center;
+        left: 0;
+        bottom: 0;
+        position: fixed;
+        width: 100%;
+        background-color: rgb(50, 132, 203);
+        font-family: "Baloo Bhai";
+        font-size: 22px;
+        text-transform: uppercase;
+      }
+      .nav a{
+        text-decoration:none;
+      } 
+    </style>
+    <div class="nav">
+      <nav>
+        <ul>
+          <li><a href="/">First</a></li>
+          <li><a href="/">Second</a></li>
+          <li><a href="/">Third</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="container1"></div><div class="container2"></div>
+    <div class="foot">&copy; Ap</div>
+  </body>
+</html>
